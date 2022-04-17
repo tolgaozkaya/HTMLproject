@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="1.jpg" alt="" id="logoID" class="logo" width="100" height="100">
+            <ul>
+                <li><a href="homepage.html">ANASAYFA</a></li>
+                <li><a href="aboutme.html">HAKKIMDA</a> </li>
+                <li><a href="https://github.com/tolgaozkaya">PROJELERİM</a></li>
+                <li><a href="contact.html">İLETİŞİM</a></li>
+            </ul>
+        </div>
+        <div id="conetnt1" class="content">
+            <h1>TOLGA ÖZKAYA</h1>
+            <P>Yazılımcı olma yolunda ilerleyen birisi..</P>
+            <a href="https://github.com/tolgaozkaya">
+                <button type="button">GITHUB</button></a>
+            <a href="https://www.linkedin.com/in/tolga-özkaya-028198208/">
+                <button type="button">LINKEDIN</button></a>
+        </div>
+        <div id="myDIV" class="myClass">
+            <h3></h3>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#logoID").click(function () {
+                var div = $("#logoID");
+                div.animate({ height: '175px', width: '175px', opacity: '0.8' });
+                div.animate({ height: '100px', width: '100px', opacity: '0.8' });
+            });
+        });
+    </script>
+</body>
+<script src="MyScript.js"></script>
+
+</html>

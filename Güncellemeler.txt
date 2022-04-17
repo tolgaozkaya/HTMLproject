@@ -1,0 +1,9 @@
+Güncellleme 1:
+- İletişim sayfası eklendi (contact.html; app.css)
+- JavaScript ile tarih, sayfa yüklenme süresi gibi etkileşimler eklendi.
+
+Güncellleme 2:
+- Hakkımda sayfası eklendi (aboutme.html; aboutme.css).
+- Jquery ile animasyon eklendi.(Sol üstteki logoya tıklandığında logoyu büyültüp tekrar eski haline geri dönüyor).
+
+
