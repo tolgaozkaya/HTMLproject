@@ -46,6 +46,7 @@
     position: absolute;
     top: 95%;
     font-size: xx-small;
+    transform: translateX(10%);
     -webkit-transform: translateX(10%);
 }
 
