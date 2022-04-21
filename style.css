@@ -45,9 +45,8 @@
 .myClass {
     position: absolute;
     top: 95%;
-    right: 79%;
     font-size: xx-small;
-
+    -webkit-transform: translateX(10%);
 }
 
 .content {
