@@ -33,16 +33,24 @@
             <h3></h3>
         </div>
     </div>
-    <script>
-        $(document).ready(function () {
-            $("#logoID").click(function () {
-                var div = $("#logoID");
-                div.animate({ height: '175px', width: '175px', opacity: '0.8' });
-                div.animate({ height: '100px', width: '100px', opacity: '0.8' });
+</body>
+
+<script>
+    $(document).ready(function () {
+        var tmpAnimation = 0; $("#logoID").click(function () {
+            var element = $("#logoID");
+            tmpAnimation = tmpAnimation + 360;
+            $({ degrees: tmpAnimation - 360 }).animate({ degrees: tmpAnimation }, {
+                duration: 1390,
+                step: function (now) {
+                    element.css({
+                        transform: 'rotate(' + now + 'deg)'
+                    });
+                }
             });
         });
-    </script>
-</body>
+    });
+</script>
 <script src="MyScript.js"></script>
 
 </html>

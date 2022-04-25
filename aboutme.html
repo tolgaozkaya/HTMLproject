@@ -13,7 +13,7 @@
 <body>
     <div class="banner">
         <div class="navbar">
-            <img src="1.jpg" alt="" class="logo" width="100" height="100">
+            <img src="1.jpg" alt="" id="logoID" class="logo" width="100" height="100">
             <ul>
                 <li><a href="homepage.html">ANASAYFA</a></li>
                 <li><a href="aboutme.html">HAKKIMDA</a> </li>
@@ -34,5 +34,22 @@
         </div>
     </div>
 </body>
+
+<script>
+    $(document).ready(function () {
+        var tmpAnimation = 0; $("#logoID").click(function () {
+            var element = $("#logoID");
+            tmpAnimation = tmpAnimation + 360;
+            $({ degrees: tmpAnimation - 360 }).animate({ degrees: tmpAnimation }, {
+                duration: 1390,
+                step: function (now) {
+                    element.css({
+                        transform: 'rotate(' + now + 'deg)'
+                    });
+                }
+            });
+        });
+    });
+</script>
 
 </html>
