@@ -32,9 +32,7 @@ body {
   background-color: #222;
   color: #fff;
   padding: 3rem;
-  transform: translateX(60%);
-
-  
+  transform: translateX(50%);
   width: 32%;
   height: 73%;
   -webkit-transform: translateX(50%);
@@ -46,6 +44,18 @@ body {
 
 .container h3 {
   margin-bottom: 1rem;
+}
+
+.container p {
+  position: relative;
+  top: -80%;
+  transform: translateX(165%);
+  -webkit-transform: translateX(165%);
+  -moz-transform: translateX(165%);
+  -ms-transform: translateX(165%);
+  -o-transform: translateX(165%);
+  font-size: 1.1rem;
+  background-color: #222;
 }
 
 .form-control {

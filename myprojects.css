@@ -49,6 +49,7 @@
     color: white;
     text-align: left;
     transform: translateX(17%);
+    display: inline-block;
 }
 
 .content h1 {
@@ -61,7 +62,16 @@
 
 }
 
+.contentproject {
+    display: block;
+}
+
 .content ul li {
     margin: 20px auto;
     padding-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.content ul li button {
+    font-size: x-small;
 }

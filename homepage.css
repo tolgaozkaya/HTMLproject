@@ -77,9 +77,11 @@ button {
     font-weight: 600;
     background-color: rgba(120, 39, 187, 0.801);
     font-size: 17px;
+    border-color: rgb(240, 240, 240);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 button:hover {
-    color: black;
+    color: rgba(0, 0, 0, 0.936);
     transition: 2sn;
 }
