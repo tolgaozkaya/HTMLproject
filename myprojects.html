@@ -25,50 +25,32 @@
             <ul>
                 <h1>PROJELER ÇALIŞMALAR</h1>
 
-                <li> Kütüphane Otomasyonu Projem (JAVA - MySQL)  
+                <li> Kütüphane Otomasyonu Projem (JAVA - MySQL)
                     <a href="#">
                         <button type="button">GITHUB</button></a>
                 </li>
-                <li> Araç Kiralama Otomasyonu Projem (C# - MySQL) 
+                <li> Araç Kiralama Otomasyonu Projem (C# - MySQL)
                     <a href="https://github.com/tolgaozkaya/RentCarProject.git">
                         <button type="button">GITHUB</button></a>
                 </li>
-                <li>Web Site Projem 
+                <li>Web Site Projem
                     <a href="https://github.com/tolgaozkaya/HTMLproject.git">
                         <button type="button">GITHUB</button></a>
                 </li>
 
-                <li> Java OOP Çalışması 
+                <li> Java OOP Çalışması
                     <a href="https://github.com/tolgaozkaya/JavaKursu.git">
                         <button type="button">GITHUB</button></a>
                 </li>
-                <li> Java OOP Çalışması 2 
+                <li> Java OOP Çalışması 2
                     <a href="https://github.com/tolgaozkaya/JavaKursu2.git">
                         <button type="button">GITHUB</button></a>
                 </li>
             </ul>
         </div>
-        <div id="myDIV" class="myClass">
-            <h3></h3>
-        </div>
     </div>
 </body>
 
-<script>
-    $(document).ready(function () {
-        var tmpAnimation = 0; $("#logoID").click(function () {
-            var element = $("#logoID");
-            tmpAnimation = tmpAnimation + 360;
-            $({ degrees: tmpAnimation - 360 }).animate({ degrees: tmpAnimation }, {
-                duration: 1390,
-                step: function (now) {
-                    element.css({
-                        transform: 'rotate(' + now + 'deg)'
-                    });
-                }
-            });
-        });
-    });
-</script>
+<script src="MyScript.js"></script>
 
 </html>
