@@ -5,11 +5,12 @@
 }
 
 .banner {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(2.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: scroll;
 }
 
 .navbar {
@@ -59,7 +60,6 @@
     transform: translateX(5%);
     background-color: rgba(98, 31, 152, 0.801);
     width: 50px;
-
 }
 
 .contentproject {
@@ -72,6 +72,76 @@
     border-radius: 10px;
 }
 
+/* .content ul li button {
+    font-size: xx-small;
+    padding: 3px;
+    border-radius: 4px;
+    background-color:#fff;
+    border: 2px white; */
+
 .content ul li button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    text-align: center;
     font-size: x-small;
+    width: 5rem;
+    padding: 2px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
 }
+
+.content ul li button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.content ul li button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.content ul li button:hover span {
+    padding-right: 20px;
+}
+
+.content ul li button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.content ul li dt {
+    padding-bottom: 0.2rem;
+}
+
+.content ul li dd {
+    margin: 11px auto;
+    padding-bottom: 0.2rem;
+    border-radius: 10px;
+    font-size: small;
+    transform: translateX(0.8rem);
+}
+
+.content ul li dt button  {
+    width: 1.5rem;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
