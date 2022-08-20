@@ -82,7 +82,7 @@
 .content ul li button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: #ffff;
     border: none;
     color: black;
     text-align: center;
@@ -92,6 +92,7 @@
     transition: all 0.5s;
     cursor: pointer;
     margin: 3px;
+    
 }
 
 .content ul li button span {
@@ -112,6 +113,7 @@
 
 .content ul li button:hover span {
     padding-right: 20px;
+    
 }
 
 .content ul li button:hover span:after {
