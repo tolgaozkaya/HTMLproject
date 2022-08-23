@@ -72,13 +72,6 @@
     border-radius: 10px;
 }
 
-/* .content ul li button {
-    font-size: xx-small;
-    padding: 3px;
-    border-radius: 4px;
-    background-color:#fff;
-    border: 2px white; */
-
 .content ul li button {
     display: inline-block;
     border-radius: 4px;
@@ -91,8 +84,8 @@
     padding: 2px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 3px;
-    
+    margin: 4px;
+    margin-left: 0.7rem;
 }
 
 .content ul li button span {
@@ -113,7 +106,7 @@
 
 .content ul li button:hover span {
     padding-right: 20px;
-    
+
 }
 
 .content ul li button:hover span:after {
@@ -133,7 +126,7 @@
     transform: translateX(0.8rem);
 }
 
-.content ul li dt button  {
+.content ul li dt button {
     width: 1.5rem;
 }
 
@@ -146,4 +139,3 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-
