@@ -46,7 +46,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.container p {
+.container2 {
   position: relative;
   top: -80%;
   transform: translateX(165%);
@@ -56,6 +56,23 @@ body {
   -o-transform: translateX(165%);
   font-size: 1.1rem;
   background-color: #222;
+  padding: 0.3rem;
+  padding-left: 1rem;
+
+}
+
+.container2 button {
+  width: 1.5rem;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #fff;
+  border: none;
+  color: black;
+  text-align: center;
+  padding: 1px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1.5px;
 }
 
 .form-control {
