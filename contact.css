@@ -58,7 +58,6 @@ body {
   background-color: #222;
   padding: 0.3rem;
   padding-left: 1rem;
-
 }
 
 .container2 button {
@@ -173,5 +172,4 @@ body {
 .navbar ul li a:hover {
   box-shadow: 0 2px white;
   transition: 1sn;
-
 }
