@@ -1,4 +1,4 @@
-# **MY PORTFOLIO WEBSITE**
+# MY PORTFOLIO WEBSITE
 
 ![Homepage](img/projectphoto1.png)
 ![About ME](img/projectphoto2.png)
